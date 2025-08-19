@@ -2,8 +2,7 @@ import logo from './logo.svg'
 
 function Header()
 {
-    return
-    (
+    return(
        <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -22,3 +21,4 @@ function Header()
         
     )
 }
+export default Header;

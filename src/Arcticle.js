@@ -1,6 +1,6 @@
+
 function Article() {
-    return
-    (
+    return(
         <article>
             <h1>общие принципы работы (x86 CPU digest 2.0)</h1>
 
@@ -38,3 +38,4 @@ function Article() {
         </article>
     )
 }
+export default Article;
