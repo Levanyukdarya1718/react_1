@@ -1,4 +1,5 @@
 
+import './Article.css';
 function Article() {
     return(
         <article>
@@ -35,6 +36,10 @@ function Article() {
                 в десктопы или (намного реже) мобильные компьютеры». Серверные процессоры,
                 специализированные процессоры с архитектурой x86, всевозможные
                 embedded-варианты — всё это в рамках статьи не рассматривается.Оглавление</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quae facilis soluta voluptates? Fugit fugiat alias dignissimos sunt consectetur eos architecto quo eius beatae ipsum tempora, sint quia inventore. Id!</p>
+                <ol>
+              
+                </ol>
         </article>
     )
 }
