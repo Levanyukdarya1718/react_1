@@ -1,9 +1,13 @@
 
 import './Article.css';
-function Article() {
+function Article(props) {
+    let {title, content}=props;//деструктуризация
+
     return(
         <article>
-            <h1>общие принципы работы (x86 CPU digest 2.0)</h1>
+            <h1 style= {{color: "darkgreen" ,fontSize: "32px"}}>{title}</h1>
+            {content}
+            {/* <h1>общие принципы работы (x86 CPU digest 2.0)</h1>
 
             <p>Этот материал представляет собой обновлённую, существенно переработанную и дополненную 
                 версию статьи 2006 года, которая называлась «Современные  десктопные процессоры 
@@ -39,8 +43,14 @@ function Article() {
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quae facilis soluta voluptates? Fugit fugiat alias dignissimos sunt consectetur eos architecto quo eius beatae ipsum tempora, sint quia inventore. Id!</p>
                 <ol>
               
-                </ol>
+                </ol> */}
         </article>
     )
 }
+
+Article.deafultProps = {
+    title:   "Заголовок статьи",
+    content: "Содержимое статьи"
+}
+
 export default Article;
